@@ -1,0 +1,49 @@
+{
+    "compilerOptions": {
+        // Type Checking
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+        "exactOptionalPropertyTypes": true,
+        "noFallthroughCasesInSwitch": false,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+        "noUncheckedIndexedAccess": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "strict": true,
+        // Modules
+        "baseUrl": "./",
+        "module": "ESNext",
+        "moduleResolution": "nodenext",
+        "paths": {
+            "*": [
+                "node_modules/*",
+                "src/types/*"
+            ]
+        },
+        // Emit
+        "declarationMap": true,
+        "newLine": "lf",
+        "outDir": "dist",
+        "sourceMap": true,
+        // JavaScript Support
+        "allowJs": false,
+        // Interop Constraints
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "isolatedModules": true,
+        // Language and Environment
+        "target": "esnext",
+        // Compiler Diagnostics
+        "explainFiles": true,
+        // Projects
+        "composite": true,
+        // Output Formatting
+        "noErrorTruncation": true,
+        "pretty": true,
+    },
+    "include": [
+        "src/**/*"
+    ]
+}
